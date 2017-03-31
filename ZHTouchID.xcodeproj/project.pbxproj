@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708ED4A21E600E8C00753FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708ED4A11E600E8C00753FB6 /* main.m */; };
+		708ED4A51E600E8C00753FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708ED4A41E600E8C00753FB6 /* AppDelegate.m */; };
+		708ED4A81E600E8C00753FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708ED4A71E600E8C00753FB6 /* ViewController.m */; };
+		708ED4AB1E600E8C00753FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708ED4A91E600E8C00753FB6 /* Main.storyboard */; };
+		708ED4AD1E600E8C00753FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708ED4AC1E600E8C00753FB6 /* Assets.xcassets */; };
+		708ED4B01E600E8C00753FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708ED4AE1E600E8C00753FB6 /* LaunchScreen.storyboard */; };
+		708ED4BB1E600E8C00753FB6 /* ZHTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708ED4BA1E600E8C00753FB6 /* ZHTouchIDTests.m */; };
+		708ED4C61E600E8C00753FB6 /* ZHTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708ED4C51E600E8C00753FB6 /* ZHTouchIDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		708ED4B71E600E8C00753FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708ED4951E600E8C00753FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708ED49C1E600E8C00753FB6;
+			remoteInfo = ZHTouchID;
+		};
+		708ED4C21E600E8C00753FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708ED4951E600E8C00753FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708ED49C1E600E8C00753FB6;
+			remoteInfo = ZHTouchID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		708ED49D1E600E8C00753FB6 /* ZHTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708ED4A11E600E8C00753FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		708ED4A31E600E8C00753FB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		708ED4A41E600E8C00753FB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		708ED4A61E600E8C00753FB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		708ED4A71E600E8C00753FB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		708ED4AA1E600E8C00753FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		708ED4AC1E600E8C00753FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		708ED4AF1E600E8C00753FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		708ED4B11E600E8C00753FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708ED4B61E600E8C00753FB6 /* ZHTouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708ED4BA1E600E8C00753FB6 /* ZHTouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTouchIDTests.m; sourceTree = "<group>"; };
+		708ED4BC1E600E8C00753FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708ED4C11E600E8C00753FB6 /* ZHTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708ED4C51E600E8C00753FB6 /* ZHTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTouchIDUITests.m; sourceTree = "<group>"; };
+		708ED4C71E600E8C00753FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708ED49A1E600E8C00753FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708ED4B31E600E8C00753FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708ED4BE1E600E8C00753FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708ED4941E600E8C00753FB6 = {
+			isa = PBXGroup;
+			children = (
+				708ED49F1E600E8C00753FB6 /* ZHTouchID */,
+				708ED4B91E600E8C00753FB6 /* ZHTouchIDTests */,
+				708ED4C41E600E8C00753FB6 /* ZHTouchIDUITests */,
+				708ED49E1E600E8C00753FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708ED49E1E600E8C00753FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708ED49D1E600E8C00753FB6 /* ZHTouchID.app */,
+				708ED4B61E600E8C00753FB6 /* ZHTouchIDTests.xctest */,
+				708ED4C11E600E8C00753FB6 /* ZHTouchIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708ED49F1E600E8C00753FB6 /* ZHTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				708ED4A31E600E8C00753FB6 /* AppDelegate.h */,
+				708ED4A41E600E8C00753FB6 /* AppDelegate.m */,
+				708ED4A61E600E8C00753FB6 /* ViewController.h */,
+				708ED4A71E600E8C00753FB6 /* ViewController.m */,
+				708ED4A91E600E8C00753FB6 /* Main.storyboard */,
+				708ED4AC1E600E8C00753FB6 /* Assets.xcassets */,
+				708ED4AE1E600E8C00753FB6 /* LaunchScreen.storyboard */,
+				708ED4B11E600E8C00753FB6 /* Info.plist */,
+				708ED4A01E600E8C00753FB6 /* Supporting Files */,
+			);
+			path = ZHTouchID;
+			sourceTree = "<group>";
+		};
+		708ED4A01E600E8C00753FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				708ED4A11E600E8C00753FB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		708ED4B91E600E8C00753FB6 /* ZHTouchIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				708ED4BA1E600E8C00753FB6 /* ZHTouchIDTests.m */,
+				708ED4BC1E600E8C00753FB6 /* Info.plist */,
+			);
+			path = ZHTouchIDTests;
+			sourceTree = "<group>";
+		};
+		708ED4C41E600E8C00753FB6 /* ZHTouchIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				708ED4C51E600E8C00753FB6 /* ZHTouchIDUITests.m */,
+				708ED4C71E600E8C00753FB6 /* Info.plist */,
+			);
+			path = ZHTouchIDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708ED49C1E600E8C00753FB6 /* ZHTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708ED4CA1E600E8C00753FB6 /* Build configuration list for PBXNativeTarget "ZHTouchID" */;
+			buildPhases = (
+				708ED4991E600E8C00753FB6 /* Sources */,
+				708ED49A1E600E8C00753FB6 /* Frameworks */,
+				708ED49B1E600E8C00753FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTouchID;
+			productName = ZHTouchID;
+			productReference = 708ED49D1E600E8C00753FB6 /* ZHTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		708ED4B51E600E8C00753FB6 /* ZHTouchIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708ED4CD1E600E8C00753FB6 /* Build configuration list for PBXNativeTarget "ZHTouchIDTests" */;
+			buildPhases = (
+				708ED4B21E600E8C00753FB6 /* Sources */,
+				708ED4B31E600E8C00753FB6 /* Frameworks */,
+				708ED4B41E600E8C00753FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708ED4B81E600E8C00753FB6 /* PBXTargetDependency */,
+			);
+			name = ZHTouchIDTests;
+			productName = ZHTouchIDTests;
+			productReference = 708ED4B61E600E8C00753FB6 /* ZHTouchIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		708ED4C01E600E8C00753FB6 /* ZHTouchIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708ED4D01E600E8C00753FB6 /* Build configuration list for PBXNativeTarget "ZHTouchIDUITests" */;
+			buildPhases = (
+				708ED4BD1E600E8C00753FB6 /* Sources */,
+				708ED4BE1E600E8C00753FB6 /* Frameworks */,
+				708ED4BF1E600E8C00753FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708ED4C31E600E8C00753FB6 /* PBXTargetDependency */,
+			);
+			name = ZHTouchIDUITests;
+			productName = ZHTouchIDUITests;
+			productReference = 708ED4C11E600E8C00753FB6 /* ZHTouchIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708ED4951E600E8C00753FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhanghua0221;
+				TargetAttributes = {
+					708ED49C1E600E8C00753FB6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P2KXZFAMHQ;
+						ProvisioningStyle = Automatic;
+					};
+					708ED4B51E600E8C00753FB6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P2KXZFAMHQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 708ED49C1E600E8C00753FB6;
+					};
+					708ED4C01E600E8C00753FB6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P2KXZFAMHQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 708ED49C1E600E8C00753FB6;
+					};
+				};
+			};
+			buildConfigurationList = 708ED4981E600E8C00753FB6 /* Build configuration list for PBXProject "ZHTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708ED4941E600E8C00753FB6;
+			productRefGroup = 708ED49E1E600E8C00753FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708ED49C1E600E8C00753FB6 /* ZHTouchID */,
+				708ED4B51E600E8C00753FB6 /* ZHTouchIDTests */,
+				708ED4C01E600E8C00753FB6 /* ZHTouchIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708ED49B1E600E8C00753FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708ED4B01E600E8C00753FB6 /* LaunchScreen.storyboard in Resources */,
+				708ED4AD1E600E8C00753FB6 /* Assets.xcassets in Resources */,
+				708ED4AB1E600E8C00753FB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708ED4B41E600E8C00753FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708ED4BF1E600E8C00753FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708ED4991E600E8C00753FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708ED4A81E600E8C00753FB6 /* ViewController.m in Sources */,
+				708ED4A51E600E8C00753FB6 /* AppDelegate.m in Sources */,
+				708ED4A21E600E8C00753FB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708ED4B21E600E8C00753FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708ED4BB1E600E8C00753FB6 /* ZHTouchIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708ED4BD1E600E8C00753FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708ED4C61E600E8C00753FB6 /* ZHTouchIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708ED4B81E600E8C00753FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708ED49C1E600E8C00753FB6 /* ZHTouchID */;
+			targetProxy = 708ED4B71E600E8C00753FB6 /* PBXContainerItemProxy */;
+		};
+		708ED4C31E600E8C00753FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708ED49C1E600E8C00753FB6 /* ZHTouchID */;
+			targetProxy = 708ED4C21E600E8C00753FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		708ED4A91E600E8C00753FB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708ED4AA1E600E8C00753FB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		708ED4AE1E600E8C00753FB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708ED4AF1E600E8C00753FB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		708ED4C81E600E8C00753FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708ED4C91E600E8C00753FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708ED4CB1E600E8C00753FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2KXZFAMHQ;
+				INFOPLIST_FILE = ZHTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QiKunKeJi.com.cn.ZHGDMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		708ED4CC1E600E8C00753FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2KXZFAMHQ;
+				INFOPLIST_FILE = ZHTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QiKunKeJi.com.cn.ZHGDMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		708ED4CE1E600E8C00753FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P2KXZFAMHQ;
+				INFOPLIST_FILE = ZHTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QiKunKeJi.com.cn.ZHTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHTouchID.app/ZHTouchID";
+			};
+			name = Debug;
+		};
+		708ED4CF1E600E8C00753FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P2KXZFAMHQ;
+				INFOPLIST_FILE = ZHTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QiKunKeJi.com.cn.ZHTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHTouchID.app/ZHTouchID";
+			};
+			name = Release;
+		};
+		708ED4D11E600E8C00753FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P2KXZFAMHQ;
+				INFOPLIST_FILE = ZHTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QiKunKeJi.com.cn.ZHTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHTouchID;
+			};
+			name = Debug;
+		};
+		708ED4D21E600E8C00753FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P2KXZFAMHQ;
+				INFOPLIST_FILE = ZHTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QiKunKeJi.com.cn.ZHTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHTouchID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708ED4981E600E8C00753FB6 /* Build configuration list for PBXProject "ZHTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708ED4C81E600E8C00753FB6 /* Debug */,
+				708ED4C91E600E8C00753FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708ED4CA1E600E8C00753FB6 /* Build configuration list for PBXNativeTarget "ZHTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708ED4CB1E600E8C00753FB6 /* Debug */,
+				708ED4CC1E600E8C00753FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708ED4CD1E600E8C00753FB6 /* Build configuration list for PBXNativeTarget "ZHTouchIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708ED4CE1E600E8C00753FB6 /* Debug */,
+				708ED4CF1E600E8C00753FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708ED4D01E600E8C00753FB6 /* Build configuration list for PBXNativeTarget "ZHTouchIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708ED4D11E600E8C00753FB6 /* Debug */,
+				708ED4D21E600E8C00753FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 708ED4951E600E8C00753FB6 /* Project object */;
+}
